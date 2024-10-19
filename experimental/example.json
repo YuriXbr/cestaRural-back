@@ -1,0 +1,144 @@
+{
+    "exampleProduct1": {
+        "producitId": 247,
+        "name": "Cenouras Fresas 1kg",
+        "description": "Cenouras frescas sem agrotóxicos produzidas em Pelotas",
+        "price": 7.43,
+        "quantityAvalible": 20,
+        "seller": {
+            "sellerId": 128,
+            "name": "Hortaliças do Sul",
+            "shortDescription": "Hortaliças frescas sem agrotóxicos",
+            "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+            "address": "Rua 15 de Novembro, 123",
+            "postalCode": "96015-000",
+            "city": "Pelotas",
+            "email": "joao@outlook.com",
+            "phone": "+55 53 99999-9999",
+            "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+            "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+        }
+    },
+    "exampleProduct2": {
+        "producitId": 248,
+        "name": "Alface Crespa 1kg",
+        "description": "Alface fresca sem agrotóxicos produzida em Pelotas",
+        "price": 5.43,
+        "quantityAvalible": 10,
+        "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
+        "seller": {
+            "sellerId": 128,
+            "name": "Hortaliças do Sul",
+            "shortDescription": "Hortaliças frescas sem agrotóxicos",
+            "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+            "address": "Rua 15 de Novembro, 123",
+            "postalCode": "96015-000",
+            "city": "Pelotas",
+            "email": "joao@outlook.com",
+            "phone": "+55 53 99999-9999",
+            "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+            "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+        }
+    },
+
+    "exampleSeller": {
+        "sellerId": 128,
+        "name": "Hortaliças do Sul",
+        "shortDescription": "Hortaliças frescas sem agrotóxicos",
+        "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+        "address": "Rua 15 de Novembro, 123",
+        "postalCode": "96015-000",
+        "city": "Pelotas",
+        "email": "joao@outlook.com",
+        "phone": "+55 53 99999-9999",
+        "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+        "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+        "productsIds": [247, 248]
+    },
+
+    "exampleProductList": {
+        "products": [
+            {
+                "producitId": 247,
+                "name": "Cenouras Fresas 1kg",
+                "description": "Cenouras frescas sem agrotóxicos produzidas em Pelotas",
+                "price": 7.43,
+                "quantityAvalible": 20,
+                "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
+                "seller": {
+                    "sellerId": 128,
+                    "name": "Hortaliças do Sul",
+                    "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                    "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                    "address": "Rua 15 de Novembro, 123",
+                    "postalCode": "96015-000",
+                    "city": "Pelotas",
+                    "email": "joao@outlook.com",
+                    "phone": "+55 53 99999-9999",
+                    "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+                }
+            },
+            {
+                "producitId": 248,
+                "name": "Alface Crespa 1kg",
+                "description": "Alface fresca sem agrotóxicos produzida em Pelotas",
+                "price": 5.43,
+                "quantityAvalible": 10,
+                "Seller": {
+                    "sellerId": 128,
+                    "name": "Hortaliças do Sul",
+                    "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                    "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                    "address": "Rua 15 de Novembro, 123",
+                    "postalCode": "96015-000",
+                    "city": "Pelotas",
+                    "email": "joao@outlook.com",
+                    "phone": "+55 53 99999-9999",
+                    "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+                }
+            }
+
+        ]
+    },
+
+    "exampleSellerList": {
+        "sellers": [
+            {
+                "sellerId": 128,
+                "name": "Hortaliças do Sul",
+                "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                "address": "Rua 15 de Novembro, 123",
+                "postalCode": "96015-000",
+                "city": "Pelotas",
+                "email": "joao@outlook.com",
+                "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                "productsIds": [247, 248]  
+            },
+            {
+                "sellerId": 129,
+                "name": "Hortaliças do Norte",
+                "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                "address": "Rua 15 de Novembro, 123",
+                "postalCode": "96015-000",
+                "city": "Pelotas",
+                "email": "marcio@outlook.com",
+                "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                "productsIds": [249, 250]
+            }
+        ]
+    }
+}
