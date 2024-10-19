@@ -5,6 +5,9 @@
 * GET `/product/:id` -- Retorna informações especificas do produto com ID identificado ou 404 se não houver
 * GET `/seller/:id` -- Retorna informações especificas de um vendedor com ID identificado ou 404 se não houver
 * POST `/sell/:id` -- Retornará se a venda foi concluida ou não baseado se o produto ID existe e está disponivel em estoque
+* GET `/cart` -- Retorna o carrinho de compras
+* POST `/cart/add` -- Envie um json com productId e quantity para adicionar ao carrinho
+* POST`/cart/remove` -- Envie um json com productId e quantity para remover do carrinho
 
 
 ## Exemplo de JSON Produto
