@@ -1,11 +1,16 @@
 {
     "exampleProduct1": {
         "producitId": 247,
-        "name": "Cenouras Fresas 1kg",
+        "name": "Cenouras Frescas 1kg",
         "description": "Cenouras frescas sem agrotóxicos produzidas em Pelotas",
         "price": 7.43,
         "unity": "kg",
         "quantityAvalible": 20,
+        "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
         "seller": {
             "sellerId": 128,
             "name": "Hortaliças do Sul",
@@ -144,7 +149,7 @@
         "products": [
             {
                 "producitId": 247,
-                "name": "Cenouras Fresas 1kg",
+                "name": "Cenouras Frescas 1kg",
                 "description": "Cenouras frescas sem agrotóxicos produzidas em Pelotas",
                 "price": 7.43,
                 "quantityAvalible": 20,

@@ -140,4 +140,10 @@ axios.post('http://localhost:3000/cart/remove', { productId: 247, quantity: 1 })
         console.error(error);
     });
 
+axios.get('http://localhost:3000/product/247')
+.then(response => {
+    console.log(response.data);
+}
+)
+
     module.exports = app;
