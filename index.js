@@ -123,7 +123,7 @@ axios.post('http://localhost:3000/sell/247')
     });
 
 // Teste de adição ao carrinho
-axios.post('http://localhost:3000/cart/add', { productId: 247, quantity: 2 })
+axios.post('https://cesta-rural-back.vercel.app/cart/add', { productId: 247, quantity: 2 })
     .then(response => {
         console.log('Adicionado ao carrinho:', response.data);
     })

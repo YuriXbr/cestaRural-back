@@ -4,6 +4,7 @@
         "name": "Cenouras Fresas 1kg",
         "description": "Cenouras frescas sem agrotóxicos produzidas em Pelotas",
         "price": 7.43,
+        "unity": "kg",
         "quantityAvalible": 20,
         "seller": {
             "sellerId": 128,
@@ -24,6 +25,85 @@
         "name": "Alface Crespa 1kg",
         "description": "Alface fresca sem agrotóxicos produzida em Pelotas",
         "price": 5.43,
+        "unity": "kg",
+        "quantityAvalible": 10,
+        "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
+        "seller": {
+            "sellerId": 128,
+            "name": "Hortaliças do Sul",
+            "shortDescription": "Hortaliças frescas sem agrotóxicos",
+            "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+            "address": "Rua 15 de Novembro, 123",
+            "postalCode": "96015-000",
+            "city": "Pelotas",
+            "email": "joao@outlook.com",
+            "phone": "+55 53 99999-9999",
+            "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+            "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+        }
+    },
+    "exampleProduct3": {
+        "producitId": 249,
+        "name": "Batata Doce",
+        "description": "Batata doce nova",
+        "price": 5.43,
+        "unity": "kg",
+        "quantityAvalible": 10,
+        "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
+        "seller": {
+            "sellerId": 128,
+            "name": "Hortaliças do Sul",
+            "shortDescription": "Hortaliças frescas sem agrotóxicos",
+            "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+            "address": "Rua 15 de Novembro, 123",
+            "postalCode": "96015-000",
+            "city": "Pelotas",
+            "email": "joao@outlook.com",
+            "phone": "+55 53 99999-9999",
+            "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+            "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+        }
+    },
+    "exampleProduct4": {
+        "producitId": 250,
+        "name": "Banana prata",
+        "description": "Banana prata produzida na zona rural de Pelotas",
+        "price": 5.43,
+        "unity": "kg",
+        "quantityAvalible": 10,
+        "imageCarrousel": [
+                    "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                    "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                ],
+        "seller": {
+            "sellerId": 128,
+            "name": "Hortaliças do Sul",
+            "shortDescription": "Hortaliças frescas sem agrotóxicos",
+            "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+            "address": "Rua 15 de Novembro, 123",
+            "postalCode": "96015-000",
+            "city": "Pelotas",
+            "email": "joao@outlook.com",
+            "phone": "+55 53 99999-9999",
+            "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+            "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+        }
+    },
+    "exampleProduct5": {
+        "producitId": 251,
+        "name": "Uvas verdes",
+        "description": "Uvas verdes docinhas",
+        "price": 5.43,
+        "unity": "kg",
         "quantityAvalible": 10,
         "imageCarrousel": [
                     "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
@@ -57,7 +137,7 @@
         "phone": "+55 53 99999-9999",
         "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
         "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
-        "productsIds": [247, 248]
+        "productsIds": [247, 248, 249, 250, 251]
     },
 
     "exampleProductList": {
@@ -106,10 +186,87 @@
                     "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
                     "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
                 }
+            },
+            {
+            "producitId": 249,
+            "name": "Batata Doce",
+            "description": "Batata doce nova",
+            "price": 5.43,
+            "unity": "kg",
+            "quantityAvalible": 10,
+            "imageCarrousel": [
+                        "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                        "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                        "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                    ],
+            "seller": {
+                "sellerId": 128,
+                "name": "Hortaliças do Sul",
+                "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                "address": "Rua 15 de Novembro, 123",
+                "postalCode": "96015-000",
+                "city": "Pelotas",
+                "email": "joao@outlook.com",
+                "phone": "+55 53 99999-9999",
+                "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
             }
-
-        ]
-    },
+            },
+            {
+                "producitId": 250,
+                "name": "Banana prata",
+                "description": "Banana prata produzida na zona rural de Pelotas",
+                "price": 5.43,
+                "unity": "kg",
+                "quantityAvalible": 10,
+                "imageCarrousel": [
+                            "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                            "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                            "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                        ],
+                "seller": {
+                    "sellerId": 128,
+                    "name": "Hortaliças do Sul",
+                    "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                    "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                    "address": "Rua 15 de Novembro, 123",
+                    "postalCode": "96015-000",
+                    "city": "Pelotas",
+                    "email": "joao@outlook.com",
+                    "phone": "+55 53 99999-9999",
+                    "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+                }
+            },
+            {
+                "producitId": 251,
+                "name": "Uvas verdes",
+                "description": "Uvas verdes docinhas",
+                "price": 5.43,
+                "unity": "kg",
+                "quantityAvalible": 10,
+                "imageCarrousel": [
+                            "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                            "https://th.bing.com/th/id/R.6d09e52e1f12d2c79cce1621443c7a42?rik=HzAfDUoM71pdAg&pid=ImgRaw&r=0",
+                            "https://missvickie.com/wp-content/uploads/2021/12/carrots-taste-bitter.jpg"
+                        ],
+                "seller": {
+                    "sellerId": 128,
+                    "name": "Hortaliças do Sul",
+                    "shortDescription": "Hortaliças frescas sem agrotóxicos",
+                    "longDescription": "Hortaliças frescas sem agrotóxicos produzidas em Pelotas, desde 1998 com qualidade e preço justo",
+                    "address": "Rua 15 de Novembro, 123",
+                    "postalCode": "96015-000",
+                    "city": "Pelotas",
+                    "email": "joao@outlook.com",
+                    "phone": "+55 53 99999-9999",
+                    "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
+                    "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0"
+                }
+            }
+    ]
+},
 
     "exampleSellerList": {
         "sellers": [
@@ -124,7 +281,7 @@
                 "email": "joao@outlook.com",
                 "logo": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
                 "banner": "https://th.bing.com/th/id/R.47ed1051f953751bb41076cd2ea6c708?rik=oJmwGUIFYN9v6Q&pid=ImgRaw&r=0",
-                "productsIds": [247, 248]  
+                "productsIds": [247, 248, 249, 250, 251]  
             },
             {
                 "sellerId": 129,
