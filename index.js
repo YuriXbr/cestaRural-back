@@ -1,10 +1,11 @@
-// Express server
 const express = require('express');
+const cors = require('cors');
 const example = require('./experimental/example.json');
 const app = express();
 const axios = require('axios');
 
 app.use(express.json());
+app.use(cors()); // Adiciona o middleware CORS
 
 app.get('/', (req, res) => {
     res.send('Hello World');
@@ -44,28 +45,27 @@ app.post('/sell/:id', (req, res) => {
     const productId = parseInt(req.params.id);
     const product = example.exampleProductList.products.find(p => p.producitId === productId);
 
-   if(!product) {
-       res.status(404).json({ success: false, error: 'Produto não encontrado' });
-         return;
+    if (!product) {
+        res.status(404).json({ success: false, error: 'Produto não encontrado' });
+        return;
     }
-    if(!product.quantityAvalible) {
+    if (!product.quantityAvalible) {
         res.status(400).json({ success: false, error: 'Produto esgotado' });
         return;
     }
-    
+
     const transactionId = Math.floor(Math.random() * 1000000); // Gerar um ID de transação aleatório
     res.json({
         success: true,
         product: product,
         transactionId: transactionId
     });
-    
-
 });
 
 // Estrutura de dados para armazenar o carrinho de compras
 let cart = [];
 
+// Rota para mostrar itens no carrinho
 app.get('/cart', (req, res) => {
     res.json({ success: true, cart });
 });
@@ -86,7 +86,7 @@ app.post('/cart/add', (req, res) => {
     } else {
         cart.push({ productId, quantity });
     }
-
+    console.log(cart);
     res.json({ success: true, cart });
 });
 
@@ -113,9 +113,7 @@ app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
 
-
 // make a test request to the server sell endpoint
-
 axios.post('http://localhost:3000/sell/247')
     .then(response => {
         console.log(response.data);
@@ -123,7 +121,7 @@ axios.post('http://localhost:3000/sell/247')
     .catch(error => {
         console.error(error);
     });
-    
+
 // Teste de adição ao carrinho
 axios.post('http://localhost:3000/cart/add', { productId: 247, quantity: 2 })
     .then(response => {
