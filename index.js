@@ -63,6 +63,52 @@ app.post('/sell/:id', (req, res) => {
 
 });
 
+// Estrutura de dados para armazenar o carrinho de compras
+let cart = [];
+
+app.get('/cart', (req, res) => {
+    res.json({ success: true, cart });
+});
+
+// Rota para adicionar produtos ao carrinho
+app.post('/cart/add', (req, res) => {
+    const { productId, quantity } = req.body;
+    const product = example.exampleProductList.products.find(p => p.producitId === productId);
+
+    if (!product) {
+        res.status(404).json({ success: false, error: 'Produto não encontrado' });
+        return;
+    }
+
+    const cartItem = cart.find(item => item.productId === productId);
+    if (cartItem) {
+        cartItem.quantity += quantity;
+    } else {
+        cart.push({ productId, quantity });
+    }
+
+    res.json({ success: true, cart });
+});
+
+// Rota para remover produtos do carrinho
+app.post('/cart/remove', (req, res) => {
+    const { productId, quantity } = req.body;
+    const cartItem = cart.find(item => item.productId === productId);
+
+    if (!cartItem) {
+        res.status(404).json({ success: false, error: 'Produto não encontrado no carrinho' });
+        return;
+    }
+
+    if (cartItem.quantity <= quantity) {
+        cart = cart.filter(item => item.productId !== productId);
+    } else {
+        cartItem.quantity -= quantity;
+    }
+
+    res.json({ success: true, cart });
+});
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
@@ -73,6 +119,24 @@ app.listen(3000, () => {
 axios.post('http://localhost:3000/sell/247')
     .then(response => {
         console.log(response.data);
+    })
+    .catch(error => {
+        console.error(error);
+    });
+    
+// Teste de adição ao carrinho
+axios.post('http://localhost:3000/cart/add', { productId: 247, quantity: 2 })
+    .then(response => {
+        console.log('Adicionado ao carrinho:', response.data);
+    })
+    .catch(error => {
+        console.error(error);
+    });
+
+// Teste de remoção do carrinho
+axios.post('http://localhost:3000/cart/remove', { productId: 247, quantity: 1 })
+    .then(response => {
+        console.log('Removido do carrinho:', response.data);
     })
     .catch(error => {
         console.error(error);
