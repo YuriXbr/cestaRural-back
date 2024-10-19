@@ -139,3 +139,5 @@ axios.post('http://localhost:3000/cart/remove', { productId: 247, quantity: 1 })
     .catch(error => {
         console.error(error);
     });
+
+    module.exports = app;
