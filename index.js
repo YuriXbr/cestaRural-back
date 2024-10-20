@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const example = require('./experimental/example.json');
 const app = express();
-const axios = require('axios');
 
 app.use(express.json());
 app.use(cors()); // Adiciona o middleware CORS
@@ -113,31 +112,4 @@ app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
 
-// make a test request to the server sell endpoint
-axios.post('http://localhost:3000/sell/247')
-    .then(response => {
-        console.log(response.data);
-    })
-    .catch(error => {
-        console.error(error);
-    });
-
-// Teste de adição ao carrinho
-axios.post('https://cesta-rural-back.vercel.app/cart/add', { productId: 247, quantity: 2 })
-    .then(response => {
-        console.log('Adicionado ao carrinho:', response.data);
-    })
-    .catch(error => {
-        console.error(error);
-    });
-
-// Teste de remoção do carrinho
-axios.post('http://localhost:3000/cart/remove', { productId: 247, quantity: 1 })
-    .then(response => {
-        console.log('Removido do carrinho:', response.data);
-    })
-    .catch(error => {
-        console.error(error);
-    });
-
-    module.exports = app;
+module.exports = app;
