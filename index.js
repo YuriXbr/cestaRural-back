@@ -18,7 +18,7 @@ app.get('/products', (req, res) => {
 // Route to get product by ID
 app.get('/product/:id', (req, res) => {
     const productId = parseInt(req.params.id);
-    const product = example.exampleProductList.products.find(p => p.producitId === productId);
+    const product = example.exampleProductList.products.find(p => p.productId === productId);
 
     if (product) {
         res.json(product);
@@ -42,7 +42,7 @@ app.get('/seller/:id', (req, res) => {
 // Route to handle product sell request
 app.post('/sell/:id', (req, res) => {
     const productId = parseInt(req.params.id);
-    const product = example.exampleProductList.products.find(p => p.producitId === productId);
+    const product = example.exampleProductList.products.find(p => p.productId === productId);
 
     if (!product) {
         res.status(404).json({ success: false, error: 'Produto não encontrado' });
@@ -72,7 +72,7 @@ app.get('/cart', (req, res) => {
 // Rota para adicionar produtos ao carrinho
 app.post('/cart/add', (req, res) => {
     const { productId, quantity } = req.body;
-    const product = example.exampleProductList.products.find(p => p.producitId === productId);
+    const product = example.exampleProductList.products.find(p => p.productId === productId);
 
     if (!product) {
         res.status(404).json({ success: false, error: 'Produto não encontrado' });
